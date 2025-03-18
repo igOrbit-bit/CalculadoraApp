@@ -102,6 +102,7 @@
             this.btCE.TabIndex = 12;
             this.btCE.Text = "CE";
             this.btCE.UseVisualStyleBackColor = true;
+            this.btCE.Click += new System.EventHandler(this.btCE_Click);
             // 
             // bt8
             // 

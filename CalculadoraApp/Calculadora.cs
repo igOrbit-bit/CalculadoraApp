@@ -22,13 +22,13 @@ namespace CalculadoraApp
         public void DefinirOperador(string novoOperador)
         {
             operador = novoOperador;
-            resultado = valorAtual; // Salva o valor atual para a próxima operação
+            resultado = valorAtual; 
             valorAtual = 0;
         }
 
         public void AdicionarNumero(double numero)
         {
-            valorAtual = (valorAtual * 10) + numero; // Concatena números digitados
+            valorAtual = (valorAtual * 10) + numero; 
         }
 
         public double Calcular()
@@ -52,7 +52,7 @@ namespace CalculadoraApp
                     break;
             }
 
-            valorAtual = 0; // Reinicia o valor para próximas operações
+            valorAtual = 0;
             return resultado;
         }
 
@@ -65,7 +65,7 @@ namespace CalculadoraApp
 
         public void ApagarUltimoNumero()
         {
-            valorAtual = Math.Floor(valorAtual / 10); // Remove o último dígito
+            valorAtual = Math.Floor(valorAtual / 10);
         }
 
         public double ObterValorAtual()

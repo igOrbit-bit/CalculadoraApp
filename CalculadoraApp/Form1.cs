@@ -20,9 +20,9 @@ namespace CalculadoraApp
 
         private void btNumero_Click(object sender, EventArgs e)
         {
-            Button btn = sender as Button; // Obtém o botão clicado
+            Button btn = sender as Button; 
 
-            // Se o último caractere for um operador, não apague o display
+            
             if (txtDisplay.Text.EndsWith(" + ") || txtDisplay.Text.EndsWith(" - ") ||
                 txtDisplay.Text.EndsWith(" X ") || txtDisplay.Text.EndsWith(" / "))
             {
@@ -30,10 +30,10 @@ namespace CalculadoraApp
             }
             else
             {
-                txtDisplay.Text += btn.Text; // Apenas adiciona o número normalmente
+                txtDisplay.Text += btn.Text;
             }
 
-            // Atualiza o valor na classe Calculadora
+           
             calc.AdicionarNumero(double.Parse(btn.Text));
         }
 
@@ -41,10 +41,10 @@ namespace CalculadoraApp
         {
             Button btn = sender as Button;
 
-            // Adiciona o operador e mantém o número na tela
+           
             txtDisplay.Text += " " + btn.Text + " ";
 
-            // Define o operador na calculadora
+           
             calc.DefinirOperador(btn.Text);
         }
 
@@ -54,15 +54,15 @@ namespace CalculadoraApp
         {
         double resultado = calc.Calcular();
 
-        // Mostra a equação completa com o resultado
-         txtDisplay.Text += " = " + resultado.ToString(); // Mostra o resultado
+    
+         txtDisplay.Text += " = " + resultado.ToString(); 
         }
 
         
 
         private void btC_Click(object sender, EventArgs e)
         {
-            calc.Limpar(); // Reseta a calculadora
+            calc.Limpar();
             txtDisplay.Text = "";
         }
 
@@ -73,7 +73,7 @@ namespace CalculadoraApp
                 txtDisplay.Text = txtDisplay.Text.Substring(0, txtDisplay.Text.Length - 1);
             }
 
-            // Se apagar tudo, garante que o display não fique vazio
+         
             if (txtDisplay.Text == "" || txtDisplay.Text == "-")
             {
                 txtDisplay.Text = "0";
@@ -82,7 +82,7 @@ namespace CalculadoraApp
 
         private void btVirgula_Click(object sender, EventArgs e)
         {
-            if (!txtDisplay.Text.Contains(",")) // Evita múltiplas vírgulas
+            if (!txtDisplay.Text.Contains(",")) 
             {
                 txtDisplay.Text += ",";
             }
@@ -92,6 +92,11 @@ namespace CalculadoraApp
         {
             double valor = double.Parse(txtDisplay.Text);
             txtDisplay.Text = (valor / 100).ToString();
+        }
+
+        private void btCE_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
