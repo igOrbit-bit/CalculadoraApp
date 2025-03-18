@@ -1,0 +1,10 @@
+D:\FACULDADE\3 SEMESTRE\APP_DESKTOP\CalculadoraApp\CalculadoraApp\bin\Debug\CalculadoraApp.exe.config
+D:\FACULDADE\3 SEMESTRE\APP_DESKTOP\CalculadoraApp\CalculadoraApp\bin\Debug\CalculadoraApp.exe
+D:\FACULDADE\3 SEMESTRE\APP_DESKTOP\CalculadoraApp\CalculadoraApp\bin\Debug\CalculadoraApp.pdb
+D:\FACULDADE\3 SEMESTRE\APP_DESKTOP\CalculadoraApp\CalculadoraApp\obj\Debug\CalculadoraApp.csproj.AssemblyReference.cache
+D:\FACULDADE\3 SEMESTRE\APP_DESKTOP\CalculadoraApp\CalculadoraApp\obj\Debug\CalculadoraApp.Form1.resources
+D:\FACULDADE\3 SEMESTRE\APP_DESKTOP\CalculadoraApp\CalculadoraApp\obj\Debug\CalculadoraApp.Properties.Resources.resources
+D:\FACULDADE\3 SEMESTRE\APP_DESKTOP\CalculadoraApp\CalculadoraApp\obj\Debug\CalculadoraApp.csproj.GenerateResource.cache
+D:\FACULDADE\3 SEMESTRE\APP_DESKTOP\CalculadoraApp\CalculadoraApp\obj\Debug\CalculadoraApp.csproj.CoreCompileInputs.cache
+D:\FACULDADE\3 SEMESTRE\APP_DESKTOP\CalculadoraApp\CalculadoraApp\obj\Debug\CalculadoraApp.exe
+D:\FACULDADE\3 SEMESTRE\APP_DESKTOP\CalculadoraApp\CalculadoraApp\obj\Debug\CalculadoraApp.pdb
